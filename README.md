@@ -42,33 +42,57 @@ Cloud File Storage System is a web-based application that allows users to secure
 ## How to Run the Project
 
 ### Step 1
-Download or clone the project from GitHub.
+I created the CloudFileStorage project in IntelliJ IDEA.
+
 ### Step 2
-Open the project in IntelliJ IDEA.
+I added Apache Tomcat 9 server in IntelliJ IDEA.
+
 ### Step 3
-Configure Apache Tomcat 9 in IntelliJ IDEA.
+I added the SQLite JDBC library to the project.
+
 ### Step 4
-Build and run the project.
+I created the SQLite database file cloudstorage.db.
+
 ### Step 5
-Open the application in your browser.
-Example:
-http://localhost:8080/CloudFileStorage/
+I created the required database tables:
+- users
+- files
+
 ### Step 6
-Register a new account.
+I developed the JSP pages:
+- index.jsp
+- login.jsp
+- register.jsp
+- dashboard.jsp
+- UploadFile.jsp
+- ViewFiles.jsp
+
 ### Step 7
-Login using your credentials.
+I created the Servlet classes for:
+- Login
+- Registration
+- Upload
+- Download
+- Delete
+- Logout
+
 ### Step 8
-Upload files using the Upload File option.
+I configured all servlet mappings in web.xml.
+
 ### Step 9
-View uploaded files.
+I run the project using Apache Tomcat 9 from IntelliJ IDEA.
+
 ### Step 10
-Download or delete files as required.
+I opened the application in the browser:
+http://localhost:7777/CloudFileStorage/
 
-## 🗄 Database
-SQLite database is used to store:
+### Step 11
+I registered a new user account and logged in.
 
-- User Information
-- File Information
-
-Database File:
-cloudstorage.db
+### Step 12
+I tested all features:
+- Upload File
+- View Files
+- Download File
+- Delete File
+- Logout
